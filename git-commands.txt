@@ -14,3 +14,34 @@ git config --global color.ui=true
 git init
 git status 
 
+
+
+----------------------staging a file-----------------------------
+
+
+git add <file-name>
+git add <file.name> <another-file-name> <yet-another-file-name>
+
+git add.
+git add --all
+git add -A 
+git rm --cached <file-name>
+
+
+--------------------commiting -m "Add three file"------------------
+
+git commit -m "message"
+git reset --soft HEAD^
+git commit --amend -m <enter your message>
+
+
+----------------------pulling and pushing from and to repository----------------
+
+
+git remote add origin <link>
+
+git push -u origin master
+git clone <clone-link>
+git pull
+
+
