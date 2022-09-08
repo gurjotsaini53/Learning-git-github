@@ -1,0 +1,16 @@
+-----------------git configuration commands--------------------
+
+git config --global user.name "username"
+git config --global user.email "email"
+git config --list "
+
+git config --global --unset-all user.name
+git config --global --unset-all user.email
+ 
+git config --global color.ui=true
+
+----------------------------starting a git repository-------------------
+
+git init
+git status 
+
