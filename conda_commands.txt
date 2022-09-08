@@ -1,0 +1,7 @@
+command for disabling the automatic activation of conda base on terminal open 
+conda config --set auto_activate_base false 
+
+command to activate to conda base manually in terminal
+conda activate base
+
+
